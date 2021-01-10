@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_splashscreen_audio/Menu/menu.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:flutter_splashscreen_audio/Animation/FadeAnimation.dart';
+import 'package:auto_size_text/auto_size_text.dart';
 
 void main() => runApp(MaterialApp(
       home: Demo(),
@@ -115,8 +116,9 @@ class _DemoState extends State<Demo> {
                 Container(
                   margin: EdgeInsets.only(top: 50),
                   child: Center(
-                    child: Text(
+                    child: AutoSizeText(
                       '31st January 2020',
+                      maxLines: 1,
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 20,
@@ -137,8 +139,9 @@ class _DemoState extends State<Demo> {
                 Container(
                   margin: EdgeInsets.only(top: 50),
                   child: Center(
-                    child: Text(
+                    child: AutoSizeText(
                       'Yash & Krisha',
+                      maxLines: 1,
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 30,

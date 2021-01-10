@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_splashscreen_audio/Animation/FadeAnimation.dart';
 
@@ -25,11 +26,13 @@ class _InviteCardState extends State<InviteCard> {
                 Container(
                   margin: EdgeInsets.only(top: 50),
                   child: Center(
-                    child: Text(
+                    child: AutoSizeText(
                       'YOU  ARE  INVITED  TO  THE',
+                      maxLines: 1,
+                      minFontSize: 7,
+                      maxFontSize: 10,
                       style: TextStyle(
                           color: Colors.white,
-                          fontSize: 10,
                           fontFamily: 'BodoniModa',
                           ),
                     ),
@@ -47,8 +50,9 @@ class _InviteCardState extends State<InviteCard> {
                 Container(
                   margin: EdgeInsets.only(top: 50),
                   child: Center(
-                    child: Text(
+                    child: AutoSizeText(
                       'Reception',
+                      maxLines: 1,
                       style: TextStyle(
                           // color: Color(0xff451457),
                           color: Colors.white,
@@ -70,10 +74,10 @@ class _InviteCardState extends State<InviteCard> {
                 Container(
                   margin: EdgeInsets.only(top: 50),
                   child: Center(
-                    child: Text(
+                    child: AutoSizeText(
                       '-OF-',
+                      maxLines: 1,
                       style: TextStyle(
-                          // color: Color(0xff451457),
                           color: Colors.white,
                           fontSize: 15,
                           fontFamily: 'BodoniModa',
@@ -93,10 +97,10 @@ class _InviteCardState extends State<InviteCard> {
                 Container(
                   margin: EdgeInsets.only(top: 50),
                   child: Center(
-                    child: Text(
+                    child: AutoSizeText(
                       'Yash & Krisha',
+                      maxLines: 1,
                       style: TextStyle(
-                          // color: Color(0xff451457),
                           color: Colors.white,
                           fontSize: 30,
                           fontWeight: FontWeight.bold,
@@ -116,12 +120,15 @@ class _InviteCardState extends State<InviteCard> {
                 Container(
                   margin: EdgeInsets.only(top: 50),
                   child: Center(
-                    child: Text(
+                    child: AutoSizeText(
                       'SUNDAY  THE  THIRTY-FIRST  OF  JANUARY',
+                      maxLines: 1,
+                      minFontSize: 7,
+                      maxFontSize: 10,
                       style: TextStyle(
                           // color: Color(0xff451457),
                           color: Colors.white,
-                          fontSize: 10,
+                          // fontSize: 7,
                           // fontWeight: FontWeight.bold,
                           fontFamily: 'BodoniModa'),
                     ),
@@ -139,12 +146,15 @@ class _InviteCardState extends State<InviteCard> {
                 Container(
                   margin: EdgeInsets.only(top: 50),
                   child: Center(
-                    child: Text(
+                    child: AutoSizeText(
                       'TWO  THOUSAND  AND  TWENTY-ONE',
+                      maxLines: 1,
+                      minFontSize: 7,
+                      maxFontSize: 10,
                       style: TextStyle(
                           // color: Color(0xff451457),
                           color: Colors.white,
-                          fontSize: 10,
+                          // fontSize: 7,
                           // fontWeight: FontWeight.bold,
                           fontFamily: 'BodoniModa'),
                     ),
@@ -164,12 +174,14 @@ class _InviteCardState extends State<InviteCard> {
                 Container(
                   margin: EdgeInsets.only(top: 50),
                   child: Center(
-                    child: Text(
+                    child: AutoSizeText(
                       "AT  SEVEN  O'CLOCK  IN  THE  EVENING",
+                      maxLines: 1,
+                      minFontSize: 7,
+                      maxFontSize: 10,
                       style: TextStyle(
                           // color: Color(0xff451457),
                           color: Colors.white,
-                          fontSize: 10,
                           // fontWeight: FontWeight.bold,
                           fontFamily: 'BodoniModa'),
                     ),
@@ -187,12 +199,14 @@ class _InviteCardState extends State<InviteCard> {
                 Container(
                   margin: EdgeInsets.only(top: 50),
                   child: Center(
-                    child: Text(
+                    child: AutoSizeText(
                       'AT  SAMARAMBH  LAWNS,  THANE.',
+                      maxLines: 1,
+                      minFontSize: 7,
+                      maxFontSize: 10,
                       style: TextStyle(
                           // color: Color(0xff451457),
                           color: Colors.white,
-                          fontSize: 10,
                           // fontWeight: FontWeight.bold,
                           fontFamily: 'BodoniModa'),
                     ),
